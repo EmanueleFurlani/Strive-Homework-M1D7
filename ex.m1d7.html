@@ -9,6 +9,9 @@
 </head>
 <body>
     <h1>Smartphone Shop</h1>
+    <button onclick="changeOneElement()">Click for change color of h1</button> <br><br>
+    <button onclick="changeBg()">Click for change color of bg</button> <br><br>
+    <button onclick="fakeAddress()">Click for fakeFoot</button> <br><br>
     <table border="6" cellspacing="2" cellpadding="44">
         <tbody>
         <tr>
@@ -83,6 +86,29 @@
         </tr>
         </tbody>
     </table>
+    <footer>
+        <p>Italy, via Marco Caco 12<br>Smartphone Shop SPA</p>
+        <p>Contact us:<a href="mailto:hege@example.com">SmShop@example.com</a></p>
+    </footer>
+    <textarea rows="10" cols="80">Leave a messege here</textarea>
+    <button onclick="alert('Submit')">Click here</button>
+    <script lang="text/JavaScript">
+
+        let changeOneElement = function() {
+            let title = document.getElementsByTagName("h1")[0]
+            title.classList.add("red")
+        }
+        let changeBg = function() {
+            let bg = document.getElementsByTagName("body")[0]
+            bg.classList.add("black")
+        }
+        let fakeAddress = function() {
+            let fakeFoot = document.querySelector("footer p")
+            fakeFoot.innerText ="Via fake address"
+            console.log(fakeFoot.innerText)
+        }
+
+    </script>
 </body>
 </html>
 

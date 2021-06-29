@@ -1,5 +1,9 @@
 
+.black {background-color: chocolate;}
+h1 {font-size: 100px; color: rgb(46, 23, 128);}
+table {background: rgb(78, 126, 56);background: linear-gradient(90deg, rgb(54, 196, 66) 0%, rgba(72,72,164,1) 35%, rgba(0,212,255,1) 100%); color: #fde71c; border-color: #CCCCCC; border-collapse: collapse; }
+th, td { width: 250px; font-size:xx-large }
+footer {font-size: 50px; color: rgb(46, 23, 128);}
+button {font-size: xx-large;}
+.red {color: brown;}
 
-h1 {font-size: xx-large; color: rgb(46, 23, 128);}
-table { width: 1000px; background-color: #FFFFFF; color: #4e2a2a; border-color: #CCCCCC; border-collapse: collapse; }
-th, td { width: 25px; font-size:xx-large }
