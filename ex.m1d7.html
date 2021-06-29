@@ -12,6 +12,8 @@
     <button onclick="changeOneElement()">Click for change color of h1</button> <br><br>
     <button onclick="changeBg()">Click for change color of bg</button> <br><br>
     <button onclick="fakeAddress()">Click for fakeFoot</button> <br><br>
+    <button onclick="changeCSS()">Click for change color link</button> <br><br>
+    <button onclick="changeImg()">Click for hidden imgs</button> <br><br>
     <table border="6" cellspacing="2" cellpadding="44">
         <tbody>
         <tr>
@@ -108,6 +110,25 @@
             console.log(fakeFoot.innerText)
         }
 
+        /*let changeLink = function() {
+            let redLink = document.querySelectorAll("a")
+            debugger
+            redLink.classList.add("link")
+        }*/
+
+        
+        function changeCSS() {
+            const links = document.querySelectorAll("a")
+            for (let link of links) {
+            link.classList.toggle("link");
+            }
+        }
+        function changeImg() {
+            const imgs = document.querySelectorAll("img")
+            for (let img of imgs) {
+            img.classList.toggle("imgg")
+            }
+        }
     </script>
 </body>
 </html>

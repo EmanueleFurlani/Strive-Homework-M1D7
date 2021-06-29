@@ -6,4 +6,6 @@ th, td { width: 250px; font-size:xx-large }
 footer {font-size: 50px; color: rgb(46, 23, 128);}
 button {font-size: xx-large;}
 .red {color: brown;}
+.link {color: rgb(202, 99, 120);}
+.imgg {visibility: hidden;}
 
